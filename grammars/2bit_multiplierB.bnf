@@ -1,0 +1,6 @@
+S ::= <expr>
+<expr>          ::= architecture dataflow of ind is begin <statement> end dataflow;
+<statement> ::= o(0) == <op> ; o(1) == <op> ; o(2) == <op> ; o(3) == <op> ;
+<sub-expr>      ::=<var>|<op>
+<op>   ::=(<sub-expr> and <sub-expr>)|(<sub-expr> xor <sub-expr>)
+<var> ::=a(1)|a(0)|b(1)|b(0)
