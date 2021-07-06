@@ -1,5 +1,3 @@
-#Ronan McMullen - 0451657
-
 import operator
 import os.path
 import random
